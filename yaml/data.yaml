@@ -1,0 +1,13 @@
+train: F:/FYP/data/5k_HRW_yolo_Dataset_jpg/images/train
+val: F:/FYP/data/5k_HRW_yolo_Dataset_jpg/images/val
+
+nc: 6 # number of classes
+names: [
+    "hand_raising",
+    "reading",
+    "writing",
+    "distracted",
+    "focused",
+    "sleep",
+    "using_phone",
+  ] # class names

@@ -1,0 +1,38 @@
+# Training parameters
+lr0: 0.01
+lrf: 0.2
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 4.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+
+# Loss function parameters
+box: 0.05
+cls: 0.6
+cls_pw: 1.0
+obj: 1.2
+obj_pw: 1.0
+iou_t: 0.25
+anchor_t: 3.0
+fl_gamma: 0.0
+
+# Data augmentation parameters
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 10.0
+translate: 0.15
+scale: 0.6
+shear: 3.0
+perspective: 0.0005
+flipud: 0.0
+fliplr: 0.5
+mosaic: 1.0
+mixup: 0.0
+copy_paste: 0.2
+
+# Custom parameters
+nbs: 32
+close_mosaic: 10
+label_smoothing: 0.05
