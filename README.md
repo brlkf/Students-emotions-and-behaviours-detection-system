@@ -1,4 +1,4 @@
-# Unlocking Learning Potential Using Student Expressions and Behaviour to Enhance Quality Education
+# Students emotions and behaviours detection system
 ## Overview
 This project aims to leverage student behavior and facial expression detection to improve the quality of education in classroom settings. By using machine learning techniques, the system identifies key behavioral patterns that influence learning outcomes and provides insights to educators for better student engagement.
 
